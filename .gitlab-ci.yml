@@ -1,7 +1,7 @@
 api pytest:
     image: alpine@sha256:4edbd2beb5f78b1014028f4fbb99f3237d9561100b6881aabbf5acce2c4f9454
     services:
-        - name: mooseagency/postgresql:12.3-1@sha256:a5a65569456f221ee1f8a0b3b4e2d440eb5830772d9440c9b30b1dbfd454c778
+        - name: mooseagency/postgresql:14.7-1@sha256:907984140556c7368c5245017aaeab1a045050062bebddd05204805292c31b2b
           alias: postgresql
           command:
               - postgres
